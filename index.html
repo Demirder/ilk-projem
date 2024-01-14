@@ -1,13 +1,53 @@
 <html>
   <head>
     <title>anasayfa</title>
+
+    <style>
+      .container { /* etiketler için grup oluşturur. */
+        max-width: 1200px; /*maksimum genişlik */
+        margin : 0 auto /* üst ve alttan 0 boşluk, sol ve sağdan otomatik (ortalamaktadır) */
+      }
+
+      header {
+          background-color: aqua;
+          padding: 1rem;
+      }
+
+section {
+  background-color: aliceblue;
+  padding: 1rem;
+}
+
+footer {
+  color: aliceblue;
+  background-color: black;
+  padding: 1rem;
+}
+
+    </style>
   </head>
 
   <body>
-    <h1>Anasayfa</h1>
-    <a href="hakkımda.html"> Hakkımda</a>
-    <p>
-      Anasayfaya Hoş Geldiniz
-    </p>
+    <header class="container">
+<nav>
+  <a href="index.html">Anasayfa</a>
+  <a href="hakkimda.html">Hakkımda</a>
+</nav>
+    </header>
+
+<section class="container">
+
+  <h1>Anasayfa</h1>
+  <a href="hakkımda.html"> Hakkımda</a>
+  <p>
+    Anasayfaya Hoş Geldiniz
+  </p>
+
+</section>
+
+<footer class="container">
+  <p>Web Tasarım ve Kodlama: Demir Derin Alankaya</p>
+</footer>
+
   </body>
 </html>
